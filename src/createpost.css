@@ -1,0 +1,90 @@
+
+.create-post-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f7f6f7;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+
+  }
+  
+  .input-file {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f6f7f6;
+
+    cursor: pointer;
+  }
+  
+  .textarea-description {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f6f7f6;
+   color: #0f0808;
+    resize: vertical;
+  }
+  
+  .btn-submit {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #ff9900;
+  }
+  
+  .posts-section {
+    margin-top: 20px;
+  }
+  
+  .post-item {
+    background-color: #f7f6f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    font-size: 16px;
+    color: #333;
+  }
+  

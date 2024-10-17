@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: linear-gradient(to right, #6610f2, #007bff);
+  padding: 10px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+ 
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul li {
+  color:#575757;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+ text-decoration: underline;
+}
+
+nav ul li img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.username{
+  margin-left: 900px;
+}
+.logout{
+  background-color: rgb(185, 8, 8);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+  color: white;
+
+
+}
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 300px;
+  margin: 20px auto;
+  background: linear-gradient(to right, #007bff, #6610f2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.login{
+  margin: 20px auto;
+  padding: 20px;
+  background-color: darkorange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
